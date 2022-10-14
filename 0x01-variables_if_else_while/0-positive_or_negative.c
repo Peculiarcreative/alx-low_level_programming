@@ -1,13 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+#include <time.h>
 /**
- * main - assigns a random number to int n everytime it executes, and prints it
+ * main - assigns
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-nt n;
+int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
